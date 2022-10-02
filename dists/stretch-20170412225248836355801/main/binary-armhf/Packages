@@ -1,0 +1,52 @@
+Package: bearwall
+Version: 1.11-1
+Architecture: all
+Maintainer: Brad Cowie <brad@gizmoguy.net.nz>
+Installed-Size: 102
+Depends: init-system-helpers (>= 1.18~), iptables (>= 1.2), rsyslog, logrotate
+Recommends: iproute
+Conflicts: firewall-easy, ipmasq, knetfilter, linuxserver-firewall, shorewall
+Replaces: linuxserver-firewall
+Provides: linuxserver-firewall
+Section: net
+Priority: optional
+Description: firewall component for the Linux Server project
+ Bearwall (aka Perry's Firewalling Script) is an easily configured, extensible
+ firewall designed for small to medium enterprise use - but scalable
+ to any number of users.
+ .
+ For more information, see the authors original hints at
+ http://www.wlug.org.nz/PerrysFirewallingScript.
+Filename: pool/stretch/main/b/bearwall/bearwall_1.11-1_all.deb
+MD5sum: cc85ec67ba88dbf72d54470bd3c63400
+SHA1: 4488df9971516d31370547c4567484891f953aab
+SHA256: d5c4b204b8f71f910be876fc4d58b1d3d48051816eefc9f6a7af8e535d09087c
+SHA512: 3d074f8c82c934e85299381548817fe6061f55eaaf1b6fb52808c9f84e988daa3068ef8a64b68f73d65b2c0dbf828da7b598bebb59256bdac69046532a89a8d2
+Size: 21224
+
+Package: bearwall
+Version: 1.11-2
+Architecture: all
+Maintainer: Brad Cowie <brad@gizmoguy.net.nz>
+Installed-Size: 102
+Depends: init-system-helpers (>= 1.18~), iptables (>= 1.2), rsyslog, logrotate
+Recommends: iproute2
+Conflicts: firewall-easy, ipmasq, knetfilter, linuxserver-firewall, shorewall
+Replaces: linuxserver-firewall
+Provides: linuxserver-firewall
+Section: net
+Priority: optional
+Description: firewall component for the Linux Server project
+ Bearwall (aka Perry's Firewalling Script) is an easily configured, extensible
+ firewall designed for small to medium enterprise use - but scalable
+ to any number of users.
+ .
+ For more information, see the authors original hints at
+ http://www.wlug.org.nz/PerrysFirewallingScript.
+Filename: pool/stretch/main/b/bearwall/bearwall_1.11-2_all.deb
+MD5sum: 585d1aa5226e652404a3209de2ff2785
+SHA1: b53e5e486ab8aa34e0fb5a0460b7f2f3c229e174
+SHA256: 5a082fb29308ac51b495bb5616d373049a3646a8b5a4335509fae2ab35a0b2c3
+SHA512: 917478b658cc458902d93499118f1e8d9c42e56a683786637163c41a6997fa5afc3f920f493113b5471765252c62f9dd3538fb71fce14668364f8ce3eaa4dd02
+Size: 21222
+

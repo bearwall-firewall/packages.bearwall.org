@@ -1,0 +1,52 @@
+Package: bearwall
+Version: 1.11-1
+Architecture: all
+Maintainer: Brad Cowie <brad@gizmoguy.net.nz>
+Installed-Size: 102
+Depends: init-system-helpers (>= 1.18~), iptables (>= 1.2), rsyslog, logrotate
+Recommends: iproute
+Conflicts: firewall-easy, ipmasq, knetfilter, linuxserver-firewall, shorewall
+Replaces: linuxserver-firewall
+Provides: linuxserver-firewall
+Section: net
+Priority: optional
+Description: firewall component for the Linux Server project
+ Bearwall (aka Perry's Firewalling Script) is an easily configured, extensible
+ firewall designed for small to medium enterprise use - but scalable
+ to any number of users.
+ .
+ For more information, see the authors original hints at
+ http://www.wlug.org.nz/PerrysFirewallingScript.
+Filename: pool/yakkety/main/b/bearwall/bearwall_1.11-1_all.deb
+MD5sum: 36d24b78991a93f0cd37a069d33a2500
+SHA1: 543375df1b4fea2cfd1cafaa84b9c8fc088f3a32
+SHA256: 6042c998ec255ce32eaaac64d18ab41df9ac39031b8c7f8ce267e0c68cd7d99e
+SHA512: 9c017646f01c2a9cc09d4dbcd64e46c321d8e975a73c09911801e9e5f1e3e2305c9d52d0a9af7e5582c016dbfd221364a50d2691e03264bd60c1cb9d405d99e7
+Size: 21170
+
+Package: bearwall
+Version: 1.11-2
+Architecture: all
+Maintainer: Brad Cowie <brad@gizmoguy.net.nz>
+Installed-Size: 102
+Depends: init-system-helpers (>= 1.18~), iptables (>= 1.2), rsyslog, logrotate
+Recommends: iproute2
+Conflicts: firewall-easy, ipmasq, knetfilter, linuxserver-firewall, shorewall
+Replaces: linuxserver-firewall
+Provides: linuxserver-firewall
+Section: net
+Priority: optional
+Description: firewall component for the Linux Server project
+ Bearwall (aka Perry's Firewalling Script) is an easily configured, extensible
+ firewall designed for small to medium enterprise use - but scalable
+ to any number of users.
+ .
+ For more information, see the authors original hints at
+ http://www.wlug.org.nz/PerrysFirewallingScript.
+Filename: pool/yakkety/main/b/bearwall/bearwall_1.11-2_all.deb
+MD5sum: a8455eb1a46f4cd37d4a1654e41f1dff
+SHA1: a9e8e0c9e7de7f018ce15b73d00174cb048b20de
+SHA256: 2ddbf1536c2a158318167451193666285d881c30115276ba045b76fd6895a1db
+SHA512: 136d2ad96a7a44fe0db4456d24cb918ac67831a6b74fa4566a049d2a22cf23e228a32c1aed088eb08e57ba08748469dc98ca6a55300c056e1dc506b63807d337
+Size: 21224
+

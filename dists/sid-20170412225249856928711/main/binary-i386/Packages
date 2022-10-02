@@ -1,0 +1,52 @@
+Package: bearwall
+Version: 1.11-1
+Architecture: all
+Maintainer: Brad Cowie <brad@gizmoguy.net.nz>
+Installed-Size: 102
+Depends: init-system-helpers (>= 1.18~), iptables (>= 1.2), rsyslog, logrotate
+Recommends: iproute
+Conflicts: firewall-easy, ipmasq, knetfilter, linuxserver-firewall, shorewall
+Replaces: linuxserver-firewall
+Provides: linuxserver-firewall
+Section: net
+Priority: optional
+Description: firewall component for the Linux Server project
+ Bearwall (aka Perry's Firewalling Script) is an easily configured, extensible
+ firewall designed for small to medium enterprise use - but scalable
+ to any number of users.
+ .
+ For more information, see the authors original hints at
+ http://www.wlug.org.nz/PerrysFirewallingScript.
+Filename: pool/sid/main/b/bearwall/bearwall_1.11-1_all.deb
+MD5sum: efffa4faa4bb1f8d15d50ecdf2808479
+SHA1: c8c1e2ff5a163132229db4b295de42c425e47401
+SHA256: e4a1f864356735697cbff21dc119a45500287ac2ff5e890827ae361f42c9bd27
+SHA512: 04c85dcbe9cfab282f152abaebcefe79bad4932abbfac26e251a800e60cd69d3abb5d577cad3b31ef8768e6e9a52d34f95daeaf43363611dd615fec294182b7f
+Size: 21208
+
+Package: bearwall
+Version: 1.11-2
+Architecture: all
+Maintainer: Brad Cowie <brad@gizmoguy.net.nz>
+Installed-Size: 102
+Depends: init-system-helpers (>= 1.18~), iptables (>= 1.2), rsyslog, logrotate
+Recommends: iproute2
+Conflicts: firewall-easy, ipmasq, knetfilter, linuxserver-firewall, shorewall
+Replaces: linuxserver-firewall
+Provides: linuxserver-firewall
+Section: net
+Priority: optional
+Description: firewall component for the Linux Server project
+ Bearwall (aka Perry's Firewalling Script) is an easily configured, extensible
+ firewall designed for small to medium enterprise use - but scalable
+ to any number of users.
+ .
+ For more information, see the authors original hints at
+ http://www.wlug.org.nz/PerrysFirewallingScript.
+Filename: pool/sid/main/b/bearwall/bearwall_1.11-2_all.deb
+MD5sum: 1217202ec764355847b8c8221b13031c
+SHA1: 9c8ec372ff0b8c3a79b2f842b55edd47cf198e51
+SHA256: e9ea743f5fc2333a786d6a999bf3cf6b88096d836d934b3f956cca2e1f0bf913
+SHA512: f68b049d1f5dcda6a87a9de02bbd2a15f5a1a967edc9f285653892d6235d179b0bd02f5f7cb93cb6cd8b3a298386f70dd97acfe1c7c97c313f6383ad0b3a5581
+Size: 21222
+

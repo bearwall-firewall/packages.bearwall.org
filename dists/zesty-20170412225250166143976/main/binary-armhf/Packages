@@ -1,0 +1,52 @@
+Package: bearwall
+Version: 1.11-1
+Architecture: all
+Maintainer: Brad Cowie <brad@gizmoguy.net.nz>
+Installed-Size: 102
+Depends: init-system-helpers (>= 1.18~), iptables (>= 1.2), rsyslog, logrotate
+Recommends: iproute
+Conflicts: firewall-easy, ipmasq, knetfilter, linuxserver-firewall, shorewall
+Replaces: linuxserver-firewall
+Provides: linuxserver-firewall
+Section: net
+Priority: optional
+Description: firewall component for the Linux Server project
+ Bearwall (aka Perry's Firewalling Script) is an easily configured, extensible
+ firewall designed for small to medium enterprise use - but scalable
+ to any number of users.
+ .
+ For more information, see the authors original hints at
+ http://www.wlug.org.nz/PerrysFirewallingScript.
+Filename: pool/zesty/main/b/bearwall/bearwall_1.11-1_all.deb
+MD5sum: 13a5ddd6748d06f530341a359ecebd6a
+SHA1: db20fa842c460a879a311b1eac36dcab8489d077
+SHA256: c8cd956616bbb667b9122fa92d49ba93f422d4f351e3ae4390306bcb30954814
+SHA512: 9054524d0409f593a001476c1b837ca210266b4ea0c5e67e18ab7d9dd985ede9f3a333b8b8a6f73bf4ee430270dcbb8c5de08c66f05c397d36ce52782e0fbc8e
+Size: 21174
+
+Package: bearwall
+Version: 1.11-2
+Architecture: all
+Maintainer: Brad Cowie <brad@gizmoguy.net.nz>
+Installed-Size: 102
+Depends: init-system-helpers (>= 1.18~), iptables (>= 1.2), rsyslog, logrotate
+Recommends: iproute2
+Conflicts: firewall-easy, ipmasq, knetfilter, linuxserver-firewall, shorewall
+Replaces: linuxserver-firewall
+Provides: linuxserver-firewall
+Section: net
+Priority: optional
+Description: firewall component for the Linux Server project
+ Bearwall (aka Perry's Firewalling Script) is an easily configured, extensible
+ firewall designed for small to medium enterprise use - but scalable
+ to any number of users.
+ .
+ For more information, see the authors original hints at
+ http://www.wlug.org.nz/PerrysFirewallingScript.
+Filename: pool/zesty/main/b/bearwall/bearwall_1.11-2_all.deb
+MD5sum: 68ffd72b1288b87c4c70bb9200411b6c
+SHA1: 056bf1536c6b2cae26ce45534d672009541c14fd
+SHA256: ca5ecdd92defa458a0137efd90fcd3ba38211ff3a4b043c1633cb8e40339663d
+SHA512: 2a0abd6ce40121adc4c1f6d9efd85f0664ae8f1f81769e5bd2c7827a03b93735c65d117f2aa5dffb21c667e3a97a7a19c25b7ff7850ce5f03d4f186065588a28
+Size: 21234
+

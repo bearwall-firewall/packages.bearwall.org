@@ -1,0 +1,26 @@
+Package: bearwall
+Version: 1.11-1
+Architecture: all
+Maintainer: Brad Cowie <brad@gizmoguy.net.nz>
+Installed-Size: 162
+Depends: init-system-helpers (>= 1.18~), iptables (>= 1.2), rsyslog, logrotate
+Recommends: iproute
+Conflicts: firewall-easy, ipmasq, knetfilter, linuxserver-firewall, shorewall
+Replaces: linuxserver-firewall
+Provides: linuxserver-firewall
+Section: net
+Priority: optional
+Description: firewall component for the Linux Server project
+ Bearwall (aka Perry's Firewalling Script) is an easily configured, extensible
+ firewall designed for small to medium enterprise use - but scalable
+ to any number of users.
+ .
+ For more information, see the authors original hints at
+ http://www.wlug.org.nz/PerrysFirewallingScript.
+Filename: pool/vivid/main/b/bearwall/bearwall_1.11-1_all.deb
+MD5sum: ecc692cd904b8762937a815cdd8d35eb
+SHA1: 0bcd6db397b59466b48d816f0fb3467a5dde6b5b
+SHA256: 5b10376c2f622eb805dcece2d27ceae809501a6665b52bd69c9c83c94cff6520
+SHA512: efd42fa903b731395bfdc215a36e82b17f0803db8596d88bd5b9fe9b9e549fd1801365e4053ef5322f1350ef72e12f5035f3042e49cf49036f11faf6c1720d43
+Size: 21460
+
